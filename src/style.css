@@ -4,6 +4,8 @@
   --ink: #1c1917;
   --muted: #57534e;
   --accent: #dc2626;
+  --decrease: #ea580c;
+  --increase: #2563eb;
   --panel: #fffdf8;
   --line: #d6d3d1;
   font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
@@ -73,10 +75,17 @@ code {
   height: 2.5rem;
   border: 0;
   border-radius: 999px;
-  background: var(--accent);
   color: white;
   font-size: 1.25rem;
   cursor: pointer;
+}
+
+.counter-decrease {
+  background: var(--decrease);
+}
+
+.counter-increase {
+  background: var(--increase);
 }
 
 .counter button:hover {
@@ -89,4 +98,25 @@ code {
   font-size: 1.25rem;
   font-variant-numeric: tabular-nums;
   font-weight: 600;
+}
+
+.instructions {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.instructions h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.125rem;
+}
+
+.instructions ol {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--muted);
+}
+
+.instructions li + li {
+  margin-top: 0.5rem;
 }

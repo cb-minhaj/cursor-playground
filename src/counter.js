@@ -3,9 +3,9 @@ export function createCounter(root) {
 
   root.innerHTML = `
     <div class="counter">
-      <button type="button" aria-label="Decrease">−</button>
+      <button type="button" class="counter-decrease" aria-label="Decrease">−</button>
       <span class="value">0</span>
-      <button type="button" aria-label="Increase">+</button>
+      <button type="button" class="counter-increase" aria-label="Increase">+</button>
     </div>
   `
 

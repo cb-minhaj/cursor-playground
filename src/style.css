@@ -3,10 +3,10 @@
   --bg: #f3efe6;
   --ink: #1c1917;
   --muted: #57534e;
-  --accent: #0f766e;
+  --accent: #dc2626;
   --panel: #fffdf8;
   --line: #d6d3d1;
-  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
   line-height: 1.5;
   color: var(--ink);
   background:
@@ -51,7 +51,7 @@ h1 {
 }
 
 code {
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 0.35rem;

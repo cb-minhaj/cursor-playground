@@ -22,6 +22,13 @@ app.innerHTML = `
         <li>Try editing files in Cursor, then commit and push changes on a branch.</li>
       </ol>
     </section>
+    <section class="vision" aria-labelledby="vision-heading">
+      <h2 id="vision-heading">Vision</h2>
+      <p>
+        A calm practice space for learning Cursor, git, and GitHub—small changes,
+        clear feedback, and confidence to ship.
+      </p>
+    </section>
   </main>
 `
 

@@ -8,7 +8,7 @@
   --increase: #2563eb;
   --panel: #fffdf8;
   --line: #d6d3d1;
-  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  font-family: "Josefin Sans", "Segoe UI", sans-serif;
   line-height: 1.5;
   color: var(--ink);
   background:
@@ -43,8 +43,10 @@ body {
 
 h1 {
   margin: 0 0 0.75rem;
+  font-family: "Poiret One", "Josefin Sans", sans-serif;
   font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1.1;
+  font-weight: 400;
 }
 
 .lede {
@@ -106,9 +108,13 @@ code {
   border-top: 1px solid var(--line);
 }
 
-.instructions h2 {
+.instructions h2,
+.vision h2 {
   margin: 0 0 0.75rem;
-  font-size: 1.125rem;
+  font-family: "Poiret One", "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
 }
 
 .instructions ol {
@@ -119,4 +125,16 @@ code {
 
 .instructions li + li {
   margin-top: 0.5rem;
+}
+
+.vision {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.vision p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 36rem;
 }
